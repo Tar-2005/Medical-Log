@@ -1,0 +1,44 @@
+# Dependencies
+node_modules/
+package-lock.json.backup
+
+# Environment files & Secrets
+.env
+.env*.local
+.env.production
+.env.development
+*.env
+!.env.example
+!.env.local.example
+ENV_SETUP_KEYS.md
+
+# Next.js build output
+.next/
+out/
+
+# Expo / Mobile build output
+.expo/
+dist/
+web-build/
+*.tsbuildinfo
+expo-env.d.ts
+/ios
+/android
+
+# Python / Virtualenv
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Uploads & Temp files
+uploads/*
+!uploads/.gitkeep
+*.log
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# OS files
+.DS_Store
+Thumbs.db

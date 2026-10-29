@@ -1,0 +1,11 @@
+﻿{
+  "name": "sovereign-health-wallet",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Patient-Centric Zero-Trust Longitudinal Health Memory Layer",
+  "scripts": {
+    "start:backend": "npm --prefix backend run dev",
+    "start:doctor": "npm --prefix doctor-portal run dev",
+    "start:mobile": "npm --prefix mobile-app start"
+  }
+}
